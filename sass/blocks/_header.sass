@@ -1,0 +1,121 @@
+.header
+  background: url('../img/bg-header.jpg') no-repeat center center
+  background-size: cover
+  // background-color: #000
+  color: $white
+  height: 740px
+  &_page
+    background: url('../img/bg-page-header.jpg') no-repeat center center
+    background-size: cover
+  &-top
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__top
+    padding: 26px 0
+    margin-bottom: 120px
+  &-wrapper
+    display: flex
+    align-items: center
+  &__button
+    margin-left: 40px
+    font-size: 16px
+    font-weight: 700
+    background-color: transparent
+    color: $white
+    border: 2px solid $white
+    padding: 13px 24px
+  &-main
+    max-width: 760px
+    margin: auto
+  &__title
+    font-family: 'Roboto', sans-serif
+    font-size: 48px
+    line-height: 1.25
+    text-align: center
+    letter-spacing: 0.2px
+    margin-bottom: 40px
+    &_page
+      margin: 0
+      line-height: 1.5
+  &__search
+    margin-bottom: 24px
+  &__humburger-menu
+    display: none
+.menu
+  &-list
+    display: flex
+    align-items: center
+    &-sub
+      position: absolute
+      // top: 100%
+      left: 0
+      width: 100%
+      z-index: 10
+      transition: 0.3s ease
+      transform: scaleY(0)
+      transform-origin: 0 0
+      &__item
+        text-align: center
+        padding: 5px 0
+      &__link
+        color: $white
+        font-weight: 600
+        font-size: 14px
+    &__item
+      position: relative
+      display: inline-block
+      margin-right: 18px
+      &:hover .menu-list-sub
+        transform: scaleY(1)
+    &__link
+      display: flex
+      align-items: center
+      color: $white
+      font-weight: 600
+      font-size: 16px
+
+.search
+  position: relative
+  min-height: 56px
+  &__input
+    position: absolute
+    max-width: 760px
+    width: 100%
+    min-height: 56px
+    padding-left: 52px
+    padding-right: 110px
+    top: 0
+    left: 0
+    color: $grey
+    font-weight: 600
+    font-size: 16px
+  &__icon
+    position: absolute
+    top: 20px
+    left: 20px
+    z-index: 20
+  &__button
+    position: absolute
+    top: 8px
+    right: 8px
+    background-color: $primary
+    color: $white
+    padding: 9px 21px
+    font-size: 16px
+    font-weight: 700
+.tags
+  display: flex
+  align-items: center
+  &__title
+    font-weight: 600
+    font-size: 16px
+    color: $white
+    margin-right: 13px
+  &__link
+    display: inline-block
+    color: $white
+    border: 1px solid $white
+    border-radius: 4px
+    padding: 6px 18px
+    margin-right: 20px

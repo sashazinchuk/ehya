@@ -1,0 +1,33 @@
+.case
+  &-wrapper
+    position: relative
+.slider
+  &-case
+    &-wrapper
+      max-width: 1140px
+    &__button
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      z-index: 99
+      // background-repeat: no-repeat
+      // background-size: 54px
+      cursor: pointer
+      background-color: $primary
+      border-radius: 50%
+      width: 54px
+      height: 56px
+      border: none
+      & path
+        fill: $white
+      &:focus
+        outline: none
+      &_prev
+        // background: url('../img/icon/arrow-prev.svg') 100%
+        left: -27px
+      &_next
+        // background: url('../img/icon/arrow-next.svg') 100%
+        right: -27px

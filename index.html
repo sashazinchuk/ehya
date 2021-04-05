@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ehya - Отдел новостей</title>
+  <link rel="apple-touch-icon"
+    sizes="57x57"
+    href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon"
+    sizes="60x60"
+    href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon"
+    sizes="72x72"
+    href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon"
+    sizes="76x76"
+    href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon"
+    sizes="114x114"
+    href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon"
+    sizes="120x120"
+    href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon"
+    sizes="144x144"
+    href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon"
+    sizes="152x152"
+    href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon"
+    sizes="180x180"
+    href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png"
+    sizes="192x192"
+    href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png"
+    sizes="32x32"
+    href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png"
+    sizes="96x96"
+    href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png"
+    sizes="16x16"
+    href="img/favicon/favicon-16x16.png">
+  <link rel="manifest"
+    href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor"
+    content="#ffffff">
+  <meta name="msapplication-TileImage"
+    content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color"
+    content="#ffffff">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- header (start) -->
+  <header class="header">
+    <div class="container">
+      <div class="header-top header__top">
+        <a href="index.html" class="logo header__logo">
+          <img src="img/logo.svg" alt="Logo: ehya" class="logo__img">
+        </a>
+        <div class="header-wrapper header-wrapper_hidden">
+          <nav class="menu header-menu">
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a href="#"
+                  class="menu-list__link">
+                  Домой
+                </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#"
+                  class="menu-list__link">
+                  Лендинги&nbsp;
+                  <img src="img/icon/angle-down.svg" alt="Icon: angle down">
+                  <ul class="menu-list-sub">
+                    <li class="menu-list-sub__item">
+                      <a href="#" class="menu-list-sub__link">
+                        Лендинг 1
+                      </a>
+                    </li>
+                    <li class="menu-list-sub__item">
+                      <a href="#" class="menu-list-sub__link">
+                        Лендинг 2
+                      </a>
+                    </li>
+                    <li class="menu-list-sub__item">
+                      <a href="#" class="menu-list-sub__link">
+                        Лендинг 3
+                      </a>
+                    </li>
+                    <li class="menu-list-sub__item">
+                      <a href="#" class="menu-list-sub__link">
+                        Лендинг 4
+                      </a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#"
+                  class="menu-list__link">
+                  Страницы&nbsp;
+                  <img src="img/icon/angle-down.svg"
+                    alt="Icon: angle down">
+                  <ul class="menu-list-sub">
+                    <li class="menu-list-sub__item">
+                      <a href="#"
+                        class="menu-list-sub__link">
+                        Страница 1
+                      </a>
+                    </li>
+                    <li class="menu-list-sub__item">
+                      <a href="#"
+                        class="menu-list-sub__link">
+                        Страница 2
+                      </a>
+                    </li>
+                    <li class="menu-list-sub__item">
+                      <a href="#"
+                        class="menu-list-sub__link">
+                        Страница 3
+                      </a>
+                    </li>
+                  </ul>
+                </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#"
+                  class="menu-list__link">
+                  Помощь
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button header__button">
+            Получить
+          </button>
+        </div>
+        <!-- /.header-wrapper -->
+        <button
+          class="humburger-menu header__humburger-menu">
+          <span
+            class="humburger-menu__item"></span>
+          <span
+            class="humburger-menu__item"></span>
+          <span
+            class="humburger-menu__item"></span>
+        </button>
+      </div>
+      <div class="header-main header__main">
+        <h1 class="header__title">Отдел новостей</h1>
+        <form action="#" class="search header__search">
+          <img src="img/icon/search.svg" alt="Icon: search" class="search__icon">
+          <input type="text" class="input search__input" placeholder="Поиск постов">
+          <button class="button search__button">
+            Поиск
+          </button>
+        </form>
+        <div class="tags header__tags">
+          <h4 class="tags__title">Популярные Тэги :</h4>
+          <div class="tags__list">
+            <a href="#" class="tags__link">Design</a>
+            <a href="#" class="tags__link">User Experience</a>
+            <a href="#" class="tags__link">User Interfaces</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header (end) -->
+
+  <!-- featured (start) -->
+  <div class="base featured">
+    <div class="container">
+      <a href="#" class="base-link base__link featured-link featured__link">
+        <div class="base-wrapper featured-wrapper">
+          <img src="img/featured.png" alt="" class="featured__img">
+          <div class="base-block featured-block">
+            <span class="base__label featured__label">Предложения</span>
+            <h3 class="base__title featured__title">
+              Дешевые Авиабилеты&nbsp;- Отличный Способ
+              Сэкономить
+            </h3>
+            <p class="base__description featured__description">
+              В этом цифровом поколении, где
+              информацию можно легко получить за
+              секунды, визитки ...
+            </p>
+            <!-- user (start) -->
+            <div class="user">
+              <div class="user-info">
+                <img src="img/user/user-1.png"
+                  alt="Viola Manisa"
+                  class="user__avatar">
+                <div class="user__info">
+                  <h4 class="user__name">
+                    Viola Manisa
+                  </h4>
+                  <div class="user__writer">
+                    <img class="user__icon"
+                      src="img/icon/verification.svg"
+                      alt="Icon: verification">
+                    <span class="user__text">
+                      Verified writer
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span class="user__date">
+                02 May
+              </span>
+              <!-- /.featured-user -->
+            </div>
+            <!-- user (end) -->
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- featured (end) -->
+
+  <!-- popular section (start) -->
+  <section class="section popular">
+    <div class="container">
+      <div class="section-wrapper">
+        <div
+          class="section__heading popular__heading">
+          <h2
+            class="section__title popular__title">
+            Популярные Статьи
+          </h2>
+          <p
+            class="section__description popular__description">
+            Мы делимся общими тенденциями,
+            стратегическими идеями, мнениями,
+            короткими и длинными историями
+            команды,
+            стоящей за компанией.
+          </p>
+          <a href="page.html"
+            class="button section__button popular__button">
+            Смотреть все
+            <svg class="section__icon" width="13" height="13"
+              viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5.57031 1.58203C5.29688 1.85547 5.32422 2.26562 5.57031 2.53906L8.87891 5.65625H1.03125C0.648438 5.65625 0.375 5.95703 0.375 6.3125V7.1875C0.375 7.57031 0.648438 7.84375 1.03125 7.84375H8.87891L5.57031 10.9883C5.32422 11.2617 5.32422 11.6719 5.57031 11.9453L6.17188 12.5469C6.44531 12.793 6.85547 12.793 7.10156 12.5469L12.4336 7.21484C12.6797 6.96875 12.6797 6.55859 12.4336 6.28516L7.10156 0.980469C6.85547 0.734375 6.44531 0.734375 6.17188 0.980469L5.57031 1.58203Z"
+                />
+            </svg>
+          </a>
+        </div>
+        <!-- /.section__heading -->
+        <div class="popular__cards">
+        
+          <!-- card (start) -->
+          <a href="#"
+            class="card popular-card popular__card">
+            <div
+              class="card-wrapper card-wrapper_big popular-card-wrapper">
+              <span
+                class="card__label popular-card__label">
+                ПРЕДЛОЖЕНИЯ
+              </span>
+              <h2
+                class="card__title card__title_big">
+                Как защитить свою семью от
+                угарного газа
+              </h2>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-1.png"
+                    alt="Viola Manisa"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Viola Manisa
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        
+          <!-- card (start) -->
+          <a href="#" class="card popular-card">
+            <div
+              class="card-wrapper card-wrapper_big popular-card-wrapper_second">
+              <span
+                class="card__label popular-card__label">
+                ПРЕДЛОЖЕНИЯ
+              </span>
+              <h2
+                class="card__title card__title_big">
+                Материнство - самая трудная и
+                лучшая
+                работа на свете
+              </h2>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-2.png"
+                    alt="Joshua William"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Joshua William
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        </div>
+        <!-- /.popular__cards -->
+      </div>
+    </div>
+  </section>
+  <!-- popular section (end) -->
+
+  <!-- recent section (start) -->
+  <section class="section recent">
+    <div class="container">
+      <div class="section-wrapper">
+        <div
+          class="section__heading recent__heading">
+          <h2
+            class="section__title recent__title">
+            Последние Статьи
+          </h2>
+          <p
+            class="section__description recent__description">
+            Вот чем мы занимались в последнее время.
+          </p>
+          <a href="page.html"
+            class="button section__button recent__button">
+            Смотреть все
+            <svg class="section__icon" width="13"
+              height="13" viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5.57031 1.58203C5.29688 1.85547 5.32422 2.26562 5.57031 2.53906L8.87891 5.65625H1.03125C0.648438 5.65625 0.375 5.95703 0.375 6.3125V7.1875C0.375 7.57031 0.648438 7.84375 1.03125 7.84375H8.87891L5.57031 10.9883C5.32422 11.2617 5.32422 11.6719 5.57031 11.9453L6.17188 12.5469C6.44531 12.793 6.85547 12.793 7.10156 12.5469L12.4336 7.21484C12.6797 6.96875 12.6797 6.55859 12.4336 6.28516L7.10156 0.980469C6.85547 0.734375 6.44531 0.734375 6.17188 0.980469L5.57031 1.58203Z" />
+            </svg>
+          </a>
+        </div>
+        <!-- /.section__heading -->
+        <div class="popular__cards">
+  
+          <!-- card (start) -->
+          <a href="#"
+            class="card recent__card">
+            <div
+              class="card-wrapper recent-card-wrapper">
+              <h2
+                class="card__title">
+                Будущее Работы
+              </h2>
+              <p class="card__description">
+                Большинство людей будут работать на
+                рабочих местах, которых сегодня не
+                существует.
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img
+                    src="img/user/user-1.png"
+                    alt="Viola Manisa"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Viola Manisa
+                    </h4>
+                    <div
+                      class="user__writer">
+                      <img
+                        class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span
+                        class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+  
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+
+          <!-- card (start) -->
+          <a href="#"
+            class="card recent__card">
+            <div
+              class="card-wrapper recent-card-wrapper recent-card-wrapper_second">
+              <h2
+                class="card__title">
+                Будущее Данных
+              </h2>
+              <p class="card__description">
+                Благодаря нескончаемым объемам данных и
+                количеству инсайтов
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-3.png"
+                    alt="Tyler Murray"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Tyler Murray
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+          
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+
+          <!-- card (start) -->
+          <a href="#"
+            class="card recent__card">
+            <div
+              class="card-wrapper recent-card-wrapper recent-card-wrapper_third">
+              <h2
+                class="card__title">
+                Будущее Обучения
+              </h2>
+              <p class="card__description">
+                Постоянная способность учиться будет на
+                самых важных навыках.
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-4.png"
+                    alt="Warren Casey"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Warren Casey
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+          
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+  
+          
+        </div>
+        <!-- /.popular__cards -->
+      </div>
+    </div>
+  </section>
+  <!-- recent section (end) -->
+
+  <!-- case section (start) -->
+  <section class="section case">
+    <div class="container">
+      <div class="section-wrapper">
+        <div
+          class="section__heading case__heading">
+          <h2
+            class="section__title case__title">
+            Примеры из практики
+          </h2>
+          <p
+            class="section__description case__description">
+            Вот чем мы занимались в последнее время.
+          </p>
+          <a href="page.html"
+            class="button section__button case__button">
+            Смотреть все
+            <svg class="section__icon"
+              width="13" height="13"
+              viewBox="0 0 13 13"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5.57031 1.58203C5.29688 1.85547 5.32422 2.26562 5.57031 2.53906L8.87891 5.65625H1.03125C0.648438 5.65625 0.375 5.95703 0.375 6.3125V7.1875C0.375 7.57031 0.648438 7.84375 1.03125 7.84375H8.87891L5.57031 10.9883C5.32422 11.2617 5.32422 11.6719 5.57031 11.9453L6.17188 12.5469C6.44531 12.793 6.85547 12.793 7.10156 12.5469L12.4336 7.21484C12.6797 6.96875 12.6797 6.55859 12.4336 6.28516L7.10156 0.980469C6.85547 0.734375 6.44531 0.734375 6.17188 0.980469L5.57031 1.58203Z" />
+            </svg>
+          </a>
+        </div>
+        <!-- /.section__heading -->
+
+        <div class="case-wrapper">
+          <!-- slider-case (start)-->
+          <div
+            class="swiper-container slider-case">
+            <div
+              class="swiper-wrapper slider-case-wrapper">
+              <div
+                class="swiper-slide slider-case__item">
+                <a href="#"
+                  class="base-link base__link">
+                  <div class="base-wrapper">
+                    <img src="img/case.png" alt=""
+                      class="featured__img">
+                    <div class="base-block">
+                      <span
+                        class="base__label">Предложения</span>
+                      <h3 class="base__title">
+                        Дешевые Авиабилеты&nbsp;-
+                        Отличный Способ
+                        Сэкономить
+                      </h3>
+                      <p
+                        class="base__description">
+                        В этом цифровом поколении,
+                        где
+                        информацию можно легко
+                        получить
+                        за
+                        секунды, визитки ...
+                      </p>
+                      <!-- user (start) -->
+                      <div class="user">
+                        <div class="user-info">
+                          <img
+                            src="img/user/user-1.png"
+                            alt="Viola Manisa"
+                            class="user__avatar">
+                          <div class="user__info">
+                            <h4
+                              class="user__name">
+                              Viola Manisa
+                            </h4>
+                            <div
+                              class="user__writer">
+                              <img
+                                class="user__icon"
+                                src="img/icon/verification.svg"
+                                alt="Icon: verification">
+                              <span
+                                class="user__text">
+                                Verified writer
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="user__date">
+                          02 May
+                        </span>
+                        <!-- /.featured-user -->
+                      </div>
+                      <!-- user (end) -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- /.slider-case__item -->
+              <div
+                class="swiper-slide slider-case__item">
+                <a href="#"
+                  class="base-link base__link">
+                  <div class="base-wrapper">
+                    <img src="img/case.png" alt=""
+                      class="featured__img">
+                    <div class="base-block">
+                      <span
+                        class="base__label">Предложения</span>
+                      <h3 class="base__title">
+                        Дешевые Авиабилеты&nbsp;-
+                        Отличный Способ
+                        Сэкономить
+                      </h3>
+                      <p
+                        class="base__description">
+                        В этом цифровом поколении,
+                        где
+                        информацию можно легко
+                        получить
+                        за
+                        секунды, визитки ...
+                      </p>
+                      <!-- user (start) -->
+                      <div class="user">
+                        <div class="user-info">
+                          <img
+                            src="img/user/user-1.png"
+                            alt="Viola Manisa"
+                            class="user__avatar">
+                          <div class="user__info">
+                            <h4
+                              class="user__name">
+                              Viola Manisa
+                            </h4>
+                            <div
+                              class="user__writer">
+                              <img
+                                class="user__icon"
+                                src="img/icon/verification.svg"
+                                alt="Icon: verification">
+                              <span
+                                class="user__text">
+                                Verified writer
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="user__date">
+                          02 May
+                        </span>
+                      </div>
+                      <!-- user (end) -->
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <!-- /.slider-case__item -->
+          
+            </div>
+            <!-- /.swiper-container /.slider-case-wrapper -->
+          </div>
+          <!-- slider-case (end) -->
+          <!-- navigation buttons -->
+          <button
+            class="slider-case__button slider-case__button_prev">
+            <svg width="15" height="14"
+              viewBox="0 0 15 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.31696 12.9375C8.62946 12.625 8.59821 12.1562 8.31696 11.8438L4.53571 8.25H13.5357C13.942 8.25 14.2857 7.9375 14.2857 7.5V6.5C14.2857 6.09375 13.942 5.75 13.5357 5.75H4.53571L8.31696 2.1875C8.59821 1.875 8.62946 1.40625 8.31696 1.09375L7.62946 0.40625C7.34821 0.125 6.84821 0.125 6.56696 0.40625L0.504456 6.5C0.191956 6.78125 0.191956 7.25 0.504456 7.53125L6.56696 13.625C6.84821 13.9062 7.31696 13.9062 7.62946 13.625L8.31696 12.9375Z"
+                 />
+            </svg>
+          </button>
+          <button
+            class="slider-case__button slider-case__button_next">
+            <svg width="15" height="14"
+              viewBox="0 0 15 14" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.22327 1.09375C5.91077 1.40625 5.94202 1.875 6.22327 2.1875L10.0045 5.75H1.03577C0.598267 5.75 0.285767 6.09375 0.285767 6.5V7.5C0.285767 7.9375 0.598267 8.25 1.03577 8.25H10.0045L6.22327 11.8438C5.94202 12.1562 5.94202 12.625 6.22327 12.9375L6.91077 13.625C7.22327 13.9062 7.69202 13.9062 7.97327 13.625L14.067 7.53125C14.3483 7.25 14.3483 6.78125 14.067 6.46875L7.97327 0.40625C7.69202 0.125 7.22327 0.125 6.91077 0.40625L6.22327 1.09375Z"
+                 />
+            </svg>
+          </button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- case section (end) -->
+
+  <!-- case section (start) -->
+  <section class="section all">
+    <div class="container">
+      <div class="section-wrapper">
+        <div
+          class="section__heading all__heading">
+          <h2
+            class="section__title all__title">
+            Все Статьи
+          </h2>
+          <p
+            class="section__description all__description">
+            Мы делимся общими тенденциями,
+            стратегическими идеями, мнениями,
+            короткими и длинными историями команды,
+            стоящей
+          </p>
+        </div>
+        <!-- /.section__heading -->
+        <div class="popular__cards all__cards">
+        
+          <!-- card (start) -->
+          <a href="#"
+            class="card all-card all__card">
+            <div
+              class="card-wrapper card-wrapper_big all-card-wrapper">
+              <span
+                class="card__label all-card__label">
+                ПРЕДЛОЖЕНИЯ
+              </span>
+              <h2
+                class="card__title card__title_big">
+                Как защитить свою семью от
+                угарного газа
+              </h2>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-1.png"
+                    alt="Viola Manisa"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Viola Manisa
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        
+          <!-- card (start) -->
+          <a href="#" class="card all-card">
+            <div
+              class="card-wrapper card-wrapper_big all-card-wrapper_second">
+              <span
+                class="card__label all-card__label">
+                ПРЕДЛОЖЕНИЯ
+              </span>
+              <h2
+                class="card__title card__title_big">
+                Материнство - самая трудная и лучшая
+                работа на свете
+              </h2>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-2.png"
+                    alt="Joshua William"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Joshua William
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        </div>
+        <!-- /.popular__cards -->
+
+
+        <div class="popular__cards">
+        
+          <!-- card (start) -->
+          <a href="#" class="card all-card all-card_small all__card">
+            <div
+              class="card-wrapper all-card-wrapper_third">
+              <h2 class="card__title">
+                Будущее Работы
+              </h2>
+              <p class="card__description">
+                Большинство людей будут работать на
+                рабочих местах, которых сегодня не
+                существует.
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-1.png"
+                    alt="Viola Manisa"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Viola Manisa
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        
+          <!-- card (start) -->
+          <a href="#" class="card all-card all-card_small all__card">
+            <div
+              class="card-wrapper all-card-wrapper all-card-wrapper_fourth">
+              <h2 class="card__title">
+                Будущее Данных
+              </h2>
+              <p class="card__description">
+                Благодаря нескончаемым объемам данных и
+                количеству инсайтов
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-3.png"
+                    alt="Tyler Murray"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Tyler Murray
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        
+          <!-- card (start) -->
+          <a href="#" class="card all-card all-card_small all__card">
+            <div
+              class="card-wrapper all-card-wrapper all-card-wrapper_fifth">
+              <h2 class="card__title">
+                Будущее Обучения
+              </h2>
+              <p class="card__description">
+                Постоянная способность учиться
+                будет на
+                самых важных навыках.
+              </p>
+              <!-- user (start) -->
+              <div class="user">
+                <div class="user-info">
+                  <img src="img/user/user-4.png"
+                    alt="Warren Casey"
+                    class="user__avatar">
+                  <div class="user__info">
+                    <h4
+                      class="user__name user__name_white">
+                      Warren Casey
+                    </h4>
+                    <div class="user__writer">
+                      <img class="user__icon"
+                        src="img/icon/verification.svg"
+                        alt="Icon: verification">
+                      <span class="user__text">
+                        Verified writer
+                      </span>
+                    </div>
+                  </div>
+        
+                </div>
+                <span
+                  class="user__date user__date_grey">
+                  02 May
+                </span>
+                <!-- /.featured-user -->
+              </div>
+              <!-- user (end) -->
+            </div>
+          </a>
+          <!-- card (end) -->
+        
+        
+        </div>
+        <!-- /.popular__cards -->
+        <a href="page.html" class="button section__button all__button">
+          Больше постов
+          <svg class="section__icon" width="13"
+            height="13" viewBox="0 0 13 13"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M5.57031 1.58203C5.29688 1.85547 5.32422 2.26562 5.57031 2.53906L8.87891 5.65625H1.03125C0.648438 5.65625 0.375 5.95703 0.375 6.3125V7.1875C0.375 7.57031 0.648438 7.84375 1.03125 7.84375H8.87891L5.57031 10.9883C5.32422 11.2617 5.32422 11.6719 5.57031 11.9453L6.17188 12.5469C6.44531 12.793 6.85547 12.793 7.10156 12.5469L12.4336 7.21484C12.6797 6.96875 12.6797 6.55859 12.4336 6.28516L7.10156 0.980469C6.85547 0.734375 6.44531 0.734375 6.17188 0.980469L5.57031 1.58203Z" />
+          </svg>
+        </a>
+       
+      </div>
+    </div>
+  </section>
+  <!-- case section (end) -->
+
+  <!-- cta (start) -->
+  <section class="cta">
+    <div class="container cta-container">
+      <div class="cta-wrapper">
+        <div class="cta-info">
+          <h2 class="cta__title">
+            Получите наши истории на ваш
+            почтовый
+            ящик еженедельно.
+          </h2>
+          <form action="#"
+            class="cta__form">
+            <input type="text"
+              class="input cta__input"
+              placeholder="Ваш Email">
+            <button
+              class="button cta__button">
+              Начать
+            </button>
+          </form>
+          <p class="cta__description">
+            Получите ответ завтра, если
+            отправите
+            его до 9 вечера сегодня. Если мы
+            получили после 9 вечера, мы
+            получим
+            ответ на следующий день.
+          </p>
+        </div>
+        <div class="cta-card">
+          <img src="img/cta.png" alt="cta" class="cta-card__img">
+          <h3 class="cta-card__title">
+            Лучшие статьи каждую неделю
+          </h3>
+          <p class="cta-card__description">
+            Наши предложения по страхованию везде
+            одинаковы.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cta (end) -->
+
+  <!-- footer (start) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div
+          class="footer-info footer__info">
+          <a href="index.html"
+            class="logo footer-logo footer__logo">
+            <img src="img/logo.svg"
+              alt="Logo: ehya"
+              class="footer-logo__img footer__logo">
+          </a>
+          <h2 class="footer__title">
+            Создайте современный и
+            креативный
+            веб-сайт с crealand
+          </h2>
+          <div
+            class="social-links footer-social-links">
+            <a href="#"
+              class="social__link footer-social__link">
+              <svg width="18" height="17"
+                viewBox="0 0 18 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.5781 9.46094C17.5781 8.89844 17.5078 8.47656 17.4375 8.01953H9.14062V11.0078H14.0625C13.8867 12.3086 12.5859 14.7695 9.14062 14.7695C6.15234 14.7695 3.72656 12.3086 3.72656 9.25C3.72656 4.36328 9.49219 2.11328 12.5859 5.10156L14.9766 2.81641C13.4648 1.41016 11.4609 0.53125 9.14062 0.53125C4.28906 0.53125 0.421875 4.43359 0.421875 9.25C0.421875 14.1016 4.28906 17.9688 9.14062 17.9688C14.168 17.9688 17.5781 14.4531 17.5781 9.46094Z"
+                   />
+              </svg>
+            </a>
+            <a href="#"
+              class="social__link footer-social__link">
+              <svg width="18" height="16"
+                viewBox="0 0 18 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1367 4.59375C16.8398 4.06641 17.4727 3.43359 17.9648 2.69531C17.332 2.97656 16.5938 3.1875 15.8555 3.25781C16.6289 2.80078 17.1914 2.09766 17.4727 1.21875C16.7695 1.64062 15.9609 1.95703 15.1523 2.13281C14.4492 1.39453 13.5 0.972656 12.4453 0.972656C10.4062 0.972656 8.75391 2.625 8.75391 4.66406C8.75391 4.94531 8.78906 5.22656 8.85938 5.50781C5.80078 5.33203 3.05859 3.85547 1.23047 1.64062C0.914062 2.16797 0.738281 2.80078 0.738281 3.50391C0.738281 4.76953 1.37109 5.89453 2.39062 6.5625C1.79297 6.52734 1.19531 6.38672 0.703125 6.10547V6.14062C0.703125 7.93359 1.96875 9.41016 3.65625 9.76172C3.375 9.83203 3.02344 9.90234 2.70703 9.90234C2.46094 9.90234 2.25 9.86719 2.00391 9.83203C2.46094 11.3086 3.83203 12.3633 5.44922 12.3984C4.18359 13.3828 2.60156 13.9805 0.878906 13.9805C0.5625 13.9805 0.28125 13.9453 0 13.9102C1.61719 14.9648 3.55078 15.5625 5.66016 15.5625C12.4453 15.5625 16.1367 9.97266 16.1367 5.08594C16.1367 4.91016 16.1367 4.76953 16.1367 4.59375Z"
+                   />
+              </svg>
+            </a>
+            <a href="#"
+              class="social__link footer-social__link">
+              <svg width="16" height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 4.20703C5.75 4.20703 3.95703 6.03516 3.95703 8.25C3.95703 10.5 5.75 12.293 8 12.293C10.2148 12.293 12.043 10.5 12.043 8.25C12.043 6.03516 10.2148 4.20703 8 4.20703ZM8 10.8867C6.55859 10.8867 5.36328 9.72656 5.36328 8.25C5.36328 6.80859 6.52344 5.64844 8 5.64844C9.44141 5.64844 10.6016 6.80859 10.6016 8.25C10.6016 9.72656 9.44141 10.8867 8 10.8867ZM13.1328 4.06641C13.1328 3.53906 12.7109 3.11719 12.1836 3.11719C11.6562 3.11719 11.2344 3.53906 11.2344 4.06641C11.2344 4.59375 11.6562 5.01562 12.1836 5.01562C12.7109 5.01562 13.1328 4.59375 13.1328 4.06641ZM15.8047 5.01562C15.7344 3.75 15.4531 2.625 14.5391 1.71094C13.625 0.796875 12.5 0.515625 11.2344 0.445312C9.93359 0.375 6.03125 0.375 4.73047 0.445312C3.46484 0.515625 2.375 0.796875 1.42578 1.71094C0.511719 2.625 0.230469 3.75 0.160156 5.01562C0.0898438 6.31641 0.0898438 10.2188 0.160156 11.5195C0.230469 12.7852 0.511719 13.875 1.42578 14.8242C2.375 15.7383 3.46484 16.0195 4.73047 16.0898C6.03125 16.1602 9.93359 16.1602 11.2344 16.0898C12.5 16.0195 13.625 15.7383 14.5391 14.8242C15.4531 13.875 15.7344 12.7852 15.8047 11.5195C15.875 10.2188 15.875 6.31641 15.8047 5.01562ZM14.1172 12.8906C13.8711 13.5938 13.3086 14.1211 12.6406 14.4023C11.5859 14.8242 9.125 14.7188 8 14.7188C6.83984 14.7188 4.37891 14.8242 3.35938 14.4023C2.65625 14.1211 2.12891 13.5938 1.84766 12.8906C1.42578 11.8711 1.53125 9.41016 1.53125 8.25C1.53125 7.125 1.42578 4.66406 1.84766 3.60938C2.12891 2.94141 2.65625 2.41406 3.35938 2.13281C4.37891 1.71094 6.83984 1.81641 8 1.81641C9.125 1.81641 11.5859 1.71094 12.6406 2.13281C13.3086 2.37891 13.8359 2.94141 14.1172 3.60938C14.5391 4.66406 14.4336 7.125 14.4336 8.25C14.4336 9.41016 14.5391 11.8711 14.1172 12.8906Z"
+                  />
+              </svg>
+            </a>
+            <a href="#"
+              class="social__link footer-social__link">
+              <svg width="16" height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.75 0.375H1.21484C0.617188 0.375 0.125 0.902344 0.125 1.53516V15C0.125 15.6328 0.617188 16.125 1.21484 16.125H14.75C15.3477 16.125 15.875 15.6328 15.875 15V1.53516C15.875 0.902344 15.3477 0.375 14.75 0.375ZM4.87109 13.875H2.55078V6.38672H4.87109V13.875ZM3.71094 5.33203C2.9375 5.33203 2.33984 4.73438 2.33984 3.99609C2.33984 3.25781 2.9375 2.625 3.71094 2.625C4.44922 2.625 5.04688 3.25781 5.04688 3.99609C5.04688 4.73438 4.44922 5.33203 3.71094 5.33203ZM13.625 13.875H11.2695V10.2188C11.2695 9.375 11.2695 8.25 10.0742 8.25C8.84375 8.25 8.66797 9.19922 8.66797 10.1836V13.875H6.34766V6.38672H8.5625V7.40625H8.59766C8.91406 6.80859 9.6875 6.17578 10.8125 6.17578C13.168 6.17578 13.625 7.75781 13.625 9.76172V13.875Z"
+                   />
+              </svg>
+            </a>
+            <a href="#"
+              class="social__link footer-social__link">
+              <svg width="21" height="14"
+                viewBox="0 0 21 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M19.6758 2.64453C19.4648 1.80078 18.7969 1.13281 17.9883 0.921875C16.4766 0.5 10.5 0.5 10.5 0.5C10.5 0.5 4.48828 0.5 2.97656 0.921875C2.16797 1.13281 1.5 1.80078 1.28906 2.64453C0.867188 4.12109 0.867188 7.28516 0.867188 7.28516C0.867188 7.28516 0.867188 10.4141 1.28906 11.9258C1.5 12.7695 2.16797 13.4023 2.97656 13.6133C4.48828 14 10.5 14 10.5 14C10.5 14 16.4766 14 17.9883 13.6133C18.7969 13.4023 19.4648 12.7695 19.6758 11.9258C20.0977 10.4141 20.0977 7.28516 20.0977 7.28516C20.0977 7.28516 20.0977 4.12109 19.6758 2.64453ZM8.53125 10.1328V4.4375L13.5234 7.28516L8.53125 10.1328Z"
+                  />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- /.footer-info -->
+        <nav class="footer-nav footer__nav">
+          <ul
+            class="footer-list footer__list">
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Продукт
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Лендинг
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Функции
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Документация
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Скидки
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Расценки
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="footer-list footer__list">
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Сервисы
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Документация
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Дизайн
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Темы
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Иллюстрации
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                UI Kit
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="footer-list footer__list">
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Компания
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                О нас
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Условия
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Политика
+                конфиденциальности
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Careers
+              </a>
+            </li>
+          </ul>
+          <ul
+            class="footer-list footer__list">
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Более
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Документация
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Лицензия
+              </a>
+            </li>
+            <li class="footer-list__item">
+              <a href="#"
+                class="footer-list__link">
+                Измененния
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.footer-nav -->
+      </div>
+      <!-- /.footer-wrapper -->
+      <div
+        class="footer-bottom footer__bottom">
+        <img src="img/icon/heart.svg"
+          alt="Icon: heart"
+          class="footer-bottom__img">
+        <span class="footer-bottom__copy">
+          Copyright © 2019. Crafted with
+          love.
+        </span>
+      </div>
+    </div>
+  </footer>
+  <!-- footer (end) -->
+  
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

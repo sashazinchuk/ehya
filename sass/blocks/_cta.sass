@@ -1,0 +1,104 @@
+.cta
+  position: relative
+  background: url('../img/bg-cta.svg') no-repeat center
+  background-size: cover
+  padding-bottom: 136px
+  z-index: 0
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 175px
+  &-info
+    max-width: 555px
+  &__title
+    font-family: 'Roboto', sans-serif
+    font-weight: 700
+    font-size: 36px
+    line-height: 1.33
+    letter-spacing: 0.2px
+    color: $white
+    margin-bottom: 48px
+  &__form
+    margin-bottom: 24px
+  &__input
+    background-color: $white
+    border-radius: 8px
+    padding: 17px 16px
+    width: 320px
+    height: 56px
+    font-size: 16px
+    color: $text-color
+    margin-right: 8px
+  &__button
+    background-color: $primary
+    border-radius: 8px
+    padding: 8px 20px
+    height: 56px
+    font-weight: 700
+    font-size: 18px
+    color: $white
+    text-align: center
+    min-width: 166px
+  &__description
+    margin: 0
+    font-size: 16px
+    line-height: 1.75
+    color: $text-color
+  &-card
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: $white
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.15)
+    border-radius: 16px
+    max-width: 466px
+    padding: 8px 8px 32px 8px
+    &::before
+      content: ''
+      position: absolute
+      display: inline-block
+      background-color: #FFFFFF
+      opacity: 0.06
+      width: 237px
+      height: 220px
+      box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.15)
+      border-radius: 16px
+      left: -61px
+      bottom: -42px
+      z-index: -1
+    &::after
+      content: ''
+      position: absolute
+      display: inline-block
+      background-color: $primary
+      box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.15)
+      border-radius: 16px
+      width: 237px
+      height: 220px
+      right: -51px
+      top: 42px
+      z-index: -1
+    &__img
+      border-radius: 12px
+      max-width: 450px
+      object-fit: cover
+      margin-bottom: 28px
+    &__title
+      align-self: flex-start
+      padding-left: 24px
+      font-family: 'Roboto', sans-serif
+      font-weight: 700
+      font-size: 24px
+      line-height: 1.33
+      letter-spacing: 0.2px
+      color: $dark
+      margin: 0 0 12px 0
+    &__description
+      align-self: flex-start
+      margin: 0
+      padding-left: 24px
+      font-size: 18px
+      line-height: 1.78
+      color: $text-color
